@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+    :root {
+        --warm-ivory: #F4F0E8;
+        --deep-charcoal-teal: #172522;
+        --deep-brown: #3A2C24;
+        --muted-brass: #B49A68;
+        --soft-beige: #DDD4C5;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        color: var(--deep-charcoal-teal);
+        background-color: var(--warm-ivory);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 700;
+        text-shadow: 0 1px 0 rgba(244, 240, 232, 0.28), 0 3px 10px rgba(23, 37, 34, 0.14);
+    }
+}
+
+@layer base {
+    button {
+        box-shadow: 0 0 0 1px rgba(180, 154, 104, 0.08), 0 3px 12px rgba(23, 37, 34, 0.08);
+        transition: box-shadow 300ms ease, border-color 300ms ease, background-color 300ms ease, color 300ms ease;
+    }
+
+    button:hover,
+    button:focus-visible {
+        box-shadow: 0 0 14px rgba(180, 154, 104, 0.26), 0 3px 14px rgba(23, 37, 34, 0.14);
+    }
+}
+
+@layer components {
+    .serif-heading {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+    }
+
+    .sans-body {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+
+    .text-luxury {
+        color: var(--deep-charcoal-teal);
+    }
+
+    .bg-luxury-ivory {
+        background-color: var(--warm-ivory);
+    }
+
+    .bg-luxury-dark {
+        background-color: var(--deep-charcoal-teal);
+    }
+}
