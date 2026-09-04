@@ -1,50 +1,44 @@
-# Heaven Furniture Mart – Hero & Navbar Update
+# Heaven Furniture Mart – Website Features
 
-The Hero and Navbar have been polished to give the website a more premium, elegant, and editorial look.
+A premium digital experience designed to showcase Heaven Furniture Mart's bespoke furniture and interior styling services.
 
-### Hero
+### Premium Hero Experience
 
-* Added a single `HERO_IMAGE` constant so the furniture image can be replaced easily.
-* The image now fills the viewport while keeping the furniture clearly visible.
-* Added a subtle dark gradient for better text readability without hiding the photography.
-* Removed the heavy overlays that made the image look washed out.
+* Full-screen furniture photography creates an immersive first impression.
+* Elegant typography communicates the brand's luxury and bespoke positioning.
+* Clear call-to-action encourages visitors to start designing their space.
+* Subtle animations add movement while keeping the experience calm and refined.
 
-### Navbar
+### Elegant Navigation
 
-* Changed the navbar to a transparent background so it blends naturally with the hero image.
-* Updated the text to a light ivory color for better contrast.
-* Removed the border and backdrop blur for a cleaner look.
-* Added a darker, semi-transparent background for the mobile menu.
+* Transparent navigation blends naturally with the hero section.
+* Clean, minimal navigation keeps the focus on the furniture and brand.
+* Responsive mobile menu provides easy access across devices.
 
-### Typography & Content
+### Design Your Space
 
-* Reduced the headline size to make it feel more refined.
-* Moved the hero content to the bottom-left instead of keeping it centered.
-* Kept the Cormorant Garamond serif font for the luxury editorial feel.
-* Reduced the supporting text size and kept it aligned with the headline.
+* Interactive experience designed to help customers explore furniture and imagine it within their own space.
+* Smooth visual transitions create a more engaging browsing experience.
+* Furniture remains the main visual focus throughout the experience.
 
-### CTA
+### Furniture Collections
 
-* Made the CTA smaller and more subtle.
-* Changed the border to a thin muted-brass line.
-* Added a simple hover effect.
-* Kept the button clean rather than making it look like a typical e-commerce CTA.
+* Dedicated sections for exploring different furniture categories.
+* Visual presentation helps customers discover products and styles naturally.
+* Designed to showcase both ready-made and bespoke furniture.
 
-### Scroll Indicator
+### Bespoke Furniture
 
-* Moved the scroll indicator to the bottom-right.
-* Changed it to a simple “SCROLL TO EXPLORE” layout.
-* Added a very subtle animation so it doesn't distract from the furniture.
+* Highlights Heaven Furniture Mart's custom furniture capabilities.
+* Communicates the idea of furniture designed around the customer's space, lifestyle, and taste.
+* Focuses on personalization rather than a traditional online-store experience.
 
-### Animation
+### Responsive Experience
 
-* Slowed down the animations to create a calmer, more premium feeling.
-* Removed unnecessary or aggressive movement.
-* The overall animation is now subtle and cinematic.
+* Optimized for desktop, tablet, and mobile devices.
+* Typography, spacing, navigation, and visual elements adapt to different screen sizes.
+* Designed to maintain the premium experience across devices.
 
-### Mobile
+### Overall Experience
 
-* Adjusted the typography, spacing, CTA, and scroll indicator for smaller screens.
-* Made sure the furniture remains visible on mobile.
-* Checked that there is no horizontal overflow.
-
+The website is designed to feel more like a **digital showroom** than a traditional e-commerce website — combining furniture photography, elegant typography, subtle motion, and interactive sections to present the Heaven Furniture Mart brand.
