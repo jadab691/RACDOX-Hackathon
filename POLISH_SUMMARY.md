@@ -1,118 +1,50 @@
-# Heaven Furniture Mart - Hero & Navbar Polish Summary
+# Heaven Furniture Mart – Hero & Navbar Update
 
-## ✅ Changes Implemented
+The Hero and Navbar have been polished to give the website a more premium, elegant, and editorial look.
 
-### 1. HERO IMAGE
-- ✅ Created `HERO_IMAGE` constant at top of Hero.jsx for easy image replacement
-- ✅ Image now occupies full viewport with `object-cover`
-- ✅ Subtle dark gradient overlay only where needed: `from-black/15 via-transparent to-black/30`
-- ✅ No heavy gray/white overlays - furniture photography remains visible and prominent
+### Hero
 
-### 2. NAVBAR
-- ✅ Changed from solid white background to fully transparent
-- ✅ Positioned with generous padding: `px-8 md:px-16 lg:px-20 py-6 md:py-8`
-- ✅ Text color changed to light ivory (#F4F0E8) for contrast against furniture
-- ✅ Removed white background, backdrop blur removed, border removed
-- ✅ Mobile menu uses dark semi-transparent background (`bg-black/40 backdrop-blur-sm`)
-- ✅ Navbar feels integrated with the hero photography
+* Added a single `HERO_IMAGE` constant so the furniture image can be replaced easily.
+* The image now fills the viewport while keeping the furniture clearly visible.
+* Added a subtle dark gradient for better text readability without hiding the photography.
+* Removed the heavy overlays that made the image look washed out.
 
-### 3. HEADLINE
-- ✅ Reduced from 8xl to max 7lg - much more refined
-- ✅ Line heights adjusted for editorial feel
-- ✅ Positioned at bottom-left area instead of centered
-- ✅ Uses serif font (Cormorant Garamond) as before
-- ✅ Text: "FURNITURE, CRAFTED AROUND YOU."
+### Navbar
 
-### 4. HERO CONTENT POSITION
-- ✅ Repositioned from center to bottom-left
-- ✅ Uses flexbox with `justify-end pb-20 md:pb-24 lg:pb-32`
-- ✅ Padding left: 8/12/16 (8 md:12 lg:16 on sides)
-- ✅ Content positioned at bottom 18-22% area as specified
-- ✅ Leaves breathing room around furniture photography
+* Changed the navbar to a transparent background so it blends naturally with the hero image.
+* Updated the text to a light ivory color for better contrast.
+* Removed the border and backdrop blur for a cleaner look.
+* Added a darker, semi-transparent background for the mobile menu.
 
-### 5. SUPPORTING TEXT
-- ✅ Reduced from 2xl to lg/xl size
-- ✅ Max width set to `max-w-md` (~480px)
-- ✅ Left-aligned with headline instead of centered
-- ✅ Maintains refined, editorial tone
-- ✅ Text: "Bespoke furniture & interior styling, crafted around your space, lifestyle, and taste."
+### Typography & Content
 
-### 6. CTA BUTTON
-- ✅ Drastically reduced padding: `px-6 md:px-8 py-3 md:py-3.5`
-- ✅ Reduced font size: `text-xs md:text-sm`
-- ✅ Changed from 2px to 1px border for refined feel
-- ✅ Transparent background with muted brass border
-- ✅ Hover effect: border and text color change to brass
-- ✅ Uses sans-serif (Inter) instead of serif for premium UI feel
-- ✅ Premium luxury editorial CTA, not generic button
+* Reduced the headline size to make it feel more refined.
+* Moved the hero content to the bottom-left instead of keeping it centered.
+* Kept the Cormorant Garamond serif font for the luxury editorial feel.
+* Reduced the supporting text size and kept it aligned with the headline.
 
-### 7. SCROLL INDICATOR
-- ✅ Moved from center-bottom to bottom-right
-- ✅ Position: `bottom-8 md:bottom-12 right-8 md:right-12`
-- ✅ Now uses two-line layout: "SCROLL\nTO EXPLORE"
-- ✅ Smaller text and icon
-- ✅ No overlap with CTA button
-- ✅ Subtle animation: 3s duration, small movement (0-4px)
+### CTA
 
-### 8. ANIMATION
-- ✅ Image entrance: 1.4s duration, subtle fade
-- ✅ Container delay increased to 0.4s for sophistication
-- ✅ Item stagger increased to 0.12s
-- ✅ Individual item animation: 1s duration (slower, more refined)
-- ✅ Scroll indicator animation: 3s duration (very subtle, continuous)
-- ✅ No bouncing, spinning, or aggressive motion
-- ✅ Calm, expensive, premium feel
+* Made the CTA smaller and more subtle.
+* Changed the border to a thin muted-brass line.
+* Added a simple hover effect.
+* Kept the button clean rather than making it look like a typical e-commerce CTA.
 
-### 9. MOBILE RESPONSIVENESS
-- ✅ Headline scales from text-5xl (mobile) to text-8xl (desktop)
-- ✅ Padding and margins scale appropriately
-- ✅ Supporting text max-width responsive
-- ✅ CTA padding and font size responsive
-- ✅ Scroll indicator repositioned for mobile
-- ✅ No horizontal overflow
-- ✅ Furniture image remains visible on mobile
+### Scroll Indicator
 
-### 10. PERFORMANCE
-- ✅ No new dependencies added
-- ✅ Still uses React, Tailwind CSS, Framer Motion only
-- ✅ No Three.js, GSAP, Lenis, or other libraries
-- ✅ Build size remains ~317KB JS, ~17KB CSS
-- ✅ Fast build time: ~429ms
+* Moved the scroll indicator to the bottom-right.
+* Changed it to a simple “SCROLL TO EXPLORE” layout.
+* Added a very subtle animation so it doesn't distract from the furniture.
 
-## Visual Result
+### Animation
 
-The Hero now communicates:
-✅ "HEAVEN IS A PREMIUM BESPOKE FURNITURE AND INTERIOR DESIGN BRAND"
+* Slowed down the animations to create a calmer, more premium feeling.
+* Removed unnecessary or aggressive movement.
+* The overall animation is now subtle and cinematic.
 
-Within 3 seconds via:
-1. **Furniture photography** - the visual star, clearly visible
-2. **Elegant typography** - refined, editorial, positioned intentionally
-3. **Luxury feel** - warm, architectural, sophisticated
-4. **Premium CTA** - subtle, refined, not template-like
+### Mobile
 
-NOT:
-- ❌ SaaS website
-- ❌ E-commerce store
-- ❌ Generic AI landing page
-- ❌ Cartoonish or overly animated
-- ❌ Gray, washed out, or heavy
+* Adjusted the typography, spacing, CTA, and scroll indicator for smaller screens.
+* Made sure the furniture remains visible on mobile.
+* Checked that there is no horizontal overflow.
 
-## How to Replace Hero Image
-
-Simply update this line in `/src/components/Hero.jsx`:
-
-```javascript
-const HERO_IMAGE = "/images/furniture-hero-placeholder.jpg";
-```
-
-Replace the path with your actual Heaven Furniture Mart photography. The entire hero is built around this one image constant.
-
-## Testing
-
-✅ Build succeeds: `npm run build`
-✅ No console errors
-✅ No horizontal overflow
-✅ Responsive design verified
-✅ Dev server running successfully
-
-Ready for real Heaven Furniture photography!
